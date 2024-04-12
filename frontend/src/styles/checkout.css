@@ -1,0 +1,13 @@
+.checkout-container {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+}
+
+.checkout-container form {
+  display: flex; /* Assuming @include flex translates to display: flex */
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: stretch;
+  gap: 2rem; /* Assuming 2rem represents a variable $spacer */
+}
